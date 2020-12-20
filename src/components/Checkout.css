@@ -7,12 +7,48 @@
   background-color: white;
 }
 
+.checkout__heading {
+  font-size: 3rem;
+}
+
 .checkout__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #e5e5e5;
   padding: 4rem;
   color: black;
   font-weight: 500;
   font-size: 4rem;
+  margin: 2rem;
+}
+
+.checkout__items {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.checkout__total {
+  margin: 1rem;
+}
+
+.checkout__button {
+  border: none;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.checkout__button:hover {
+  background-color: #e5e5e5;
+  color: black;
+  cursor: pointer;
 }
 
 .item__list {
